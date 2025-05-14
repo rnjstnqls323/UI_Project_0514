@@ -1,0 +1,10 @@
+﻿  UI_Project_0514.cpp
+  Timer.cpp
+C:\Users\admin\source\repos\UI_Project_0514\UI_Project_0514\Utility\Timer.cpp(37,42): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Utility/Timer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\admin\source\repos\UI_Project_0514\UI_Project_0514\Utility\Timer.cpp(39,43): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Utility/Timer.cpp'을(를) 컴파일하는 중)
+  
+  코드를 생성하고 있습니다...
+  UI_Project_0514.vcxproj -> C:\Users\admin\source\repos\UI_Project_0514\x64\Debug\UI_Project_0514.exe
