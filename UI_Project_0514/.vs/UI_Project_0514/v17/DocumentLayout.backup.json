@@ -84,8 +84,7 @@
               "RelativeToolTip": "UI_Project_0514\\Objects\\Basic\\Rect.cpp",
               "ViewState": "AgIAAA8AAAAAAAAAAADwvxgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-14T08:48:13.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T08:48:13.473Z"
             },
             {
               "$type": "Document",
@@ -97,8 +96,7 @@
               "RelativeToolTip": "UI_Project_0514\\Objects\\Basic\\Circle.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-14T08:46:00.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T08:46:00.334Z"
             },
             {
               "$type": "Document",
@@ -110,8 +108,7 @@
               "RelativeToolTip": "UI_Project_0514\\Objects\\Basic\\Rect.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-14T08:45:31.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T08:45:31.202Z"
             },
             {
               "$type": "Document",
@@ -123,8 +120,7 @@
               "RelativeToolTip": "UI_Project_0514\\Objects\\Basic\\Circle.h",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-14T08:44:43.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T08:44:43.057Z"
             },
             {
               "$type": "Document",
@@ -136,8 +132,7 @@
               "RelativeToolTip": "UI_Project_0514\\Objects\\Basic\\GameObject.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-14T08:42:23.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T08:42:23.719Z"
             },
             {
               "$type": "Document",
@@ -149,8 +144,7 @@
               "RelativeToolTip": "UI_Project_0514\\Manager\\SceneManager.cpp",
               "ViewState": "AgIAABQAAAAAAAAAAAAQwB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-14T08:30:24.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T08:30:24.359Z"
             },
             {
               "$type": "Document",
@@ -162,8 +156,7 @@
               "RelativeToolTip": "UI_Project_0514\\UI_Project_0514.cpp",
               "ViewState": "AgIAACkAAAAAAAAAAAAiwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-14T08:43:46.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T08:43:46.8Z"
             },
             {
               "$type": "Document",
@@ -175,8 +168,7 @@
               "RelativeToolTip": "UI_Project_0514\\Scene\\Scene.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-14T08:29:22.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T08:29:22.592Z"
             },
             {
               "$type": "Document",
@@ -188,8 +180,7 @@
               "RelativeToolTip": "UI_Project_0514\\Manager\\SceneManager.h",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-14T08:27:58.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T08:27:58.968Z"
             },
             {
               "$type": "Document",
@@ -201,8 +192,7 @@
               "RelativeToolTip": "UI_Project_0514\\Manager\\GameManager.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-14T08:13:51.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T08:13:51.286Z"
             },
             {
               "$type": "Document",
@@ -214,8 +204,7 @@
               "RelativeToolTip": "UI_Project_0514\\Manager\\GameManager.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-14T08:13:35.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T08:13:35.211Z"
             }
           ]
         }

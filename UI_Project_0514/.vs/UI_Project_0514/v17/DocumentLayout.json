@@ -1,53 +1,69 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\UI_Project_0514\\",
+  "WorkspaceRootPath": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|solutionrelative:UI_Project_0514\\Framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Objects\\Player\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|solutionrelative:UI_Project_0514\\Objects\\Player\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\Rect.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|solutionrelative:UI_Project_0514\\Objects\\Basic\\Rect.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Scene\\TitleScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|solutionrelative:UI_Project_0514\\Scene\\TitleScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\Circle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|solutionrelative:UI_Project_0514\\Objects\\Basic\\Circle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Scene\\StoreScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|solutionrelative:UI_Project_0514\\Scene\\StoreScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\Rect.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|solutionrelative:UI_Project_0514\\Objects\\Basic\\Rect.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\Circle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|solutionrelative:UI_Project_0514\\Objects\\Basic\\Circle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|solutionrelative:UI_Project_0514\\Objects\\Basic\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Manager\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|solutionrelative:UI_Project_0514\\Manager\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|solutionrelative:UI_Project_0514\\UI_Project_0514.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Scene\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Scene\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|solutionrelative:UI_Project_0514\\Scene\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Manager\\SceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Objects\\Monster\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|solutionrelative:UI_Project_0514\\Objects\\Monster\\Monster.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\Rect.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|solutionrelative:UI_Project_0514\\Objects\\Basic\\Rect.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|solutionrelative:UI_Project_0514\\Framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\Circle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|solutionrelative:UI_Project_0514\\Objects\\Basic\\Circle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\Rect.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|solutionrelative:UI_Project_0514\\Objects\\Basic\\Rect.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\Circle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|solutionrelative:UI_Project_0514\\Objects\\Basic\\Circle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|solutionrelative:UI_Project_0514\\Objects\\Basic\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Manager\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|solutionrelative:UI_Project_0514\\Manager\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|solutionrelative:UI_Project_0514\\UI_Project_0514.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Manager\\SceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|solutionrelative:UI_Project_0514\\Manager\\SceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Manager\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Manager\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|solutionrelative:UI_Project_0514\\Manager\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Manager\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Manager\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7EF01478-47B1-43A4-885E-36FC0A5A7455}|UI_Project_0514\\UI_Project_0514.vcxproj|solutionrelative:UI_Project_0514\\Manager\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -58,17 +74,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 203,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Framework.h",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Framework.h",
+              "DocumentMoniker": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Framework.h",
               "RelativeDocumentMoniker": "UI_Project_0514\\Framework.h",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Framework.h",
+              "ToolTip": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Framework.h",
               "RelativeToolTip": "UI_Project_0514\\Framework.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-05-14T08:27:13.682Z",
               "IsPinned": true,
@@ -76,35 +92,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Rect.cpp",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\Rect.cpp",
-              "RelativeDocumentMoniker": "UI_Project_0514\\Objects\\Basic\\Rect.cpp",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\Rect.cpp",
-              "RelativeToolTip": "UI_Project_0514\\Objects\\Basic\\Rect.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAADwvxgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-14T08:48:13.473Z"
+              "DocumentIndex": 4,
+              "Title": "Monster.h",
+              "DocumentMoniker": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Objects\\Monster\\Monster.h",
+              "RelativeDocumentMoniker": "UI_Project_0514\\Objects\\Monster\\Monster.h",
+              "ToolTip": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Objects\\Monster\\Monster.h",
+              "RelativeToolTip": "UI_Project_0514\\Objects\\Monster\\Monster.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-14T17:53:28.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Player.h",
+              "DocumentMoniker": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Objects\\Player\\Player.h",
+              "RelativeDocumentMoniker": "UI_Project_0514\\Objects\\Player\\Player.h",
+              "ToolTip": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Objects\\Player\\Player.h",
+              "RelativeToolTip": "UI_Project_0514\\Objects\\Player\\Player.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-14T17:53:05.839Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Circle.cpp",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\Circle.cpp",
-              "RelativeDocumentMoniker": "UI_Project_0514\\Objects\\Basic\\Circle.cpp",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\Circle.cpp",
-              "RelativeToolTip": "UI_Project_0514\\Objects\\Basic\\Circle.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-05-14T08:46:00.334Z"
+              "Title": "StoreScene.h",
+              "DocumentMoniker": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Scene\\StoreScene.h",
+              "RelativeDocumentMoniker": "UI_Project_0514\\Scene\\StoreScene.h",
+              "ToolTip": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Scene\\StoreScene.h",
+              "RelativeToolTip": "UI_Project_0514\\Scene\\StoreScene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-14T17:51:21.645Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "TitleScene.h",
+              "DocumentMoniker": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Scene\\TitleScene.h",
+              "RelativeDocumentMoniker": "UI_Project_0514\\Scene\\TitleScene.h",
+              "ToolTip": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Scene\\TitleScene.h",
+              "RelativeToolTip": "UI_Project_0514\\Scene\\TitleScene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-14T17:51:00.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Rect.cpp",
+              "DocumentMoniker": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\Rect.cpp",
+              "RelativeDocumentMoniker": "UI_Project_0514\\Objects\\Basic\\Rect.cpp",
+              "ToolTip": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\Rect.cpp",
+              "RelativeToolTip": "UI_Project_0514\\Objects\\Basic\\Rect.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-14T08:48:13.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Rect.h",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\Rect.h",
+              "DocumentMoniker": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\Rect.h",
               "RelativeDocumentMoniker": "UI_Project_0514\\Objects\\Basic\\Rect.h",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\Rect.h",
+              "ToolTip": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\Rect.h",
               "RelativeToolTip": "UI_Project_0514\\Objects\\Basic\\Rect.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -112,11 +169,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Circle.h",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\Circle.h",
+              "DocumentMoniker": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\Circle.h",
               "RelativeDocumentMoniker": "UI_Project_0514\\Objects\\Basic\\Circle.h",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\Circle.h",
+              "ToolTip": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\Circle.h",
               "RelativeToolTip": "UI_Project_0514\\Objects\\Basic\\Circle.h",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -124,11 +181,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "GameObject.h",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\GameObject.h",
+              "DocumentMoniker": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\GameObject.h",
               "RelativeDocumentMoniker": "UI_Project_0514\\Objects\\Basic\\GameObject.h",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\GameObject.h",
+              "ToolTip": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\GameObject.h",
               "RelativeToolTip": "UI_Project_0514\\Objects\\Basic\\GameObject.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -136,11 +193,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "SceneManager.cpp",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Manager\\SceneManager.cpp",
+              "DocumentMoniker": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Manager\\SceneManager.cpp",
               "RelativeDocumentMoniker": "UI_Project_0514\\Manager\\SceneManager.cpp",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Manager\\SceneManager.cpp",
+              "ToolTip": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Manager\\SceneManager.cpp",
               "RelativeToolTip": "UI_Project_0514\\Manager\\SceneManager.cpp",
               "ViewState": "AgIAABQAAAAAAAAAAAAQwB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -148,11 +205,36 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Scene.h",
+              "DocumentMoniker": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Scene\\Scene.h",
+              "RelativeDocumentMoniker": "UI_Project_0514\\Scene\\Scene.h",
+              "ToolTip": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Scene\\Scene.h",
+              "RelativeToolTip": "UI_Project_0514\\Scene\\Scene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-05-14T08:29:22.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Circle.cpp",
+              "DocumentMoniker": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\Circle.cpp",
+              "RelativeDocumentMoniker": "UI_Project_0514\\Objects\\Basic\\Circle.cpp",
+              "ToolTip": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Objects\\Basic\\Circle.cpp",
+              "RelativeToolTip": "UI_Project_0514\\Objects\\Basic\\Circle.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-14T08:46:00.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "UI_Project_0514.cpp",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514.cpp",
+              "DocumentMoniker": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514.cpp",
               "RelativeDocumentMoniker": "UI_Project_0514\\UI_Project_0514.cpp",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514.cpp",
+              "ToolTip": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514.cpp",
               "RelativeToolTip": "UI_Project_0514\\UI_Project_0514.cpp",
               "ViewState": "AgIAACkAAAAAAAAAAAAiwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -160,23 +242,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Scene.h",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Scene\\Scene.h",
-              "RelativeDocumentMoniker": "UI_Project_0514\\Scene\\Scene.h",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Scene\\Scene.h",
-              "RelativeToolTip": "UI_Project_0514\\Scene\\Scene.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-05-14T08:29:22.592Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "SceneManager.h",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Manager\\SceneManager.h",
+              "DocumentMoniker": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Manager\\SceneManager.h",
               "RelativeDocumentMoniker": "UI_Project_0514\\Manager\\SceneManager.h",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Manager\\SceneManager.h",
+              "ToolTip": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Manager\\SceneManager.h",
               "RelativeToolTip": "UI_Project_0514\\Manager\\SceneManager.h",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -184,11 +254,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "GameManager.cpp",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Manager\\GameManager.cpp",
+              "DocumentMoniker": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Manager\\GameManager.cpp",
               "RelativeDocumentMoniker": "UI_Project_0514\\Manager\\GameManager.cpp",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Manager\\GameManager.cpp",
+              "ToolTip": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Manager\\GameManager.cpp",
               "RelativeToolTip": "UI_Project_0514\\Manager\\GameManager.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -196,11 +266,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "GameManager.h",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Manager\\GameManager.h",
+              "DocumentMoniker": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Manager\\GameManager.h",
               "RelativeDocumentMoniker": "UI_Project_0514\\Manager\\GameManager.h",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\UI_Project_0514\\UI_Project_0514\\Manager\\GameManager.h",
+              "ToolTip": "C:\\Users\\rnjst\\source\\repos\\_0429\\_0429\\UI_Project_0514\\UI_Project_0514\\UI_Project_0514\\Manager\\GameManager.h",
               "RelativeToolTip": "UI_Project_0514\\Manager\\GameManager.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",

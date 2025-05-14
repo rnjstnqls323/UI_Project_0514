@@ -135,9 +135,13 @@
     <ClInclude Include="Manager\SceneManager.h" />
     <ClInclude Include="Objects\Basic\Circle.h" />
     <ClInclude Include="Objects\Basic\GameObject.h" />
+    <ClInclude Include="Objects\Monster\Monster.h" />
+    <ClInclude Include="Objects\Player\Player.h" />
     <ClInclude Include="Objects\Basic\Rect.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="Scene\Scene.h" />
+    <ClInclude Include="Scene\StoreScene.h" />
+    <ClInclude Include="Scene\TitleScene.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="UI_Project_0514.h" />
     <ClInclude Include="Utility\Singleton.h" />
