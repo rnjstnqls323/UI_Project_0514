@@ -10,6 +10,9 @@ GoodsManager::GoodsManager()
 		ItemData item = ItemDataManager::Get()->GetItem(1000 + i);
 		goods.push_back(new Goods({ 0,0 }, item));
 	}
+	UpdateEquipList();
+	UpdateInventoryList();
+	UpdateStoreList();
 }
 
 GoodsManager::~GoodsManager()
@@ -28,43 +31,41 @@ void GoodsManager::Update()
 	}
 }
 
-void GoodsManager::Render(HDC hdc)
+void GoodsManager::UpdateInventoryList()
 {
-	for (Goods* good : goods)
-	{
-		good->Render(hdc);
-	}
-}
-
-vector<Goods*> GoodsManager::GetInventoryGoods()
-{
-	vector<Goods*> result;
+	inventoryGoods.clear();
 	for (Goods* good : goods)
 	{
 		if (good->GetItemData().status == ItemStatus::Inventory)
-			result.push_back(good);
+			inventoryGoods.push_back(good);
 	}
-	return result;
 }
 
-vector<Goods*> GoodsManager::GetStoreGoods()
+void GoodsManager::UpdateStoreList()
 {
-	vector<Goods*> result;
+	storeGoods.clear();
 	for (Goods* good : goods)
 	{
 		if (good->GetItemData().status == ItemStatus::Store)
-			result.push_back(good);
+			storeGoods.push_back(good);
 	}
-	return result;
 }
 
-vector<Goods*> GoodsManager::GetEquipGoods()
+void GoodsManager::UpdateEquipList()
 {
-	vector<Goods*> result;
+	equipGoods.clear();
 	for (Goods* good : goods)
 	{
 		if (good->GetItemData().status == ItemStatus::Equipped)
-			result.push_back(good);
+			equipGoods.push_back(good);
 	}
-	return result;
 }
+
+//void GoodsManager::Render(HDC hdc)
+//{
+//	for (Goods* good : goods)
+//	{
+//		good->Render(hdc);
+//	}
+//}
+

@@ -75,7 +75,7 @@
     <ClInclude Include="Utility\SplitData.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Inventory\StroePanel.h">
+    <ClInclude Include="Inventory\StorePanel.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Inventory\InventoryPanel.h">
@@ -131,7 +131,7 @@
     <ClCompile Include="Inventory\Goods.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Inventory\StroePanel.cpp">
+    <ClCompile Include="Inventory\StorePanel.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Scene\TitleScene.cpp">
@@ -141,6 +141,12 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Scene\InventoryScene.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory\InventoryPanel.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory\EquipPanel.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -156,5 +162,8 @@
     <Image Include="UI_Project_0514.ico">
       <Filter>리소스 파일</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataFile\ItemData.csv" />
   </ItemGroup>
 </Project>

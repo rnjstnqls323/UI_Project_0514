@@ -4,6 +4,7 @@ Button::Button(Vector2 center, Vector2 size):Rect(center,size)
 {
 	hFont = CreateFont(20, 0, 0, 0, FW_BOLD, false, false, false, DEFAULT_CHARSET, OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS,
 		DEFAULT_QUALITY, DEFAULT_PITCH | FF_SWISS, L"배달의민족 을지로체 TTF");
+
 }
 
 Button::~Button()
@@ -85,4 +86,7 @@ void Button::SetBrush(COLORREF normalColor, COLORREF overColor, COLORREF downCol
 	if (hDownBrush)
 		DeleteObject(hDownBrush);
 	hDownBrush = CreateSolidBrush(downColor);
+
+	hSelectBrush = hNormalBrush;
+
 }

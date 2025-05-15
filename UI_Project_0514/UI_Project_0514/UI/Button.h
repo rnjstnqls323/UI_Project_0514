@@ -22,8 +22,8 @@ public:
 	void SetText(wstring text) { this->text = text; }
 	// 버튼 구현한쪽에서 누르면 자기 함수라도 넘겨주나보구나!! 대박대박
 	void SetEvent(function<void()> onClick) { this->onClick = onClick; }
-	void SetIntEvent(function<void(int)> onClickInt) { this->onClickInt = onClickInt; }
-	void SetIntParameter(int intParameter) { this->intParameter = intParameter; }
+	void SetIntEvent(function<void(int)> onClickInt) { this->onClickInt = onClickInt;}
+	void SetIntParameter(int intParameter) { this->intParameter = intParameter;}
 	void SetObjectEvent(function<void(void*)> onClickObject) { this->onClickObject = onClickObject; }
 	void SetObjectParameter(void* objectParameter) { this->objectParameter = objectParameter; }
 

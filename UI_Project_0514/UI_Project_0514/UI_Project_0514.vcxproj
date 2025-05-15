@@ -134,7 +134,7 @@
     <ClInclude Include="Inventory\EquipPanel.h" />
     <ClInclude Include="Inventory\Goods.h" />
     <ClInclude Include="Inventory\InventoryPanel.h" />
-    <ClInclude Include="Inventory\StroePanel.h" />
+    <ClInclude Include="Inventory\StorePanel.h" />
     <ClInclude Include="Manager\GameManager.h" />
     <ClInclude Include="Manager\GoodsManager.h" />
     <ClInclude Include="Manager\ItemDataManager.h" />
@@ -160,8 +160,10 @@
     <ClCompile Include="Framework.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Inventory\EquipPanel.cpp" />
     <ClCompile Include="Inventory\Goods.cpp" />
-    <ClCompile Include="Inventory\StroePanel.cpp" />
+    <ClCompile Include="Inventory\InventoryPanel.cpp" />
+    <ClCompile Include="Inventory\StorePanel.cpp" />
     <ClCompile Include="Manager\GameManager.cpp" />
     <ClCompile Include="Manager\GoodsManager.cpp" />
     <ClCompile Include="Manager\ItemDataManager.cpp" />
@@ -183,6 +185,9 @@
   <ItemGroup>
     <Image Include="small.ico" />
     <Image Include="UI_Project_0514.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataFile\ItemData.csv" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

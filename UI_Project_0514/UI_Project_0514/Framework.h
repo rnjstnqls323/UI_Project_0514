@@ -16,6 +16,7 @@
 #include <vector>
 #include <functional>
 #include <fstream>
+#include <iostream>
 
 using namespace std;
 
@@ -34,12 +35,16 @@ using namespace std;
 #include "UI/Button.h"
 #include "UI/Panel.h"
 
+
 #include "Inventory/Goods.h"
-#include "Inventory/StroePanel.h"
+#include "Manager/GoodsManager.h"
+
+
+#include "Inventory/StorePanel.h"
 #include "Inventory/InventoryPanel.h"
 #include "Inventory/EquipPanel.h"
 
-#include "Manager/GoodsManager.h"
+
 
 #include "Scene/Scene.h"
 #include "Scene/TitleScene.h"

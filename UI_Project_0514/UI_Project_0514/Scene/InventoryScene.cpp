@@ -3,7 +3,7 @@
 
 InventoryScene::InventoryScene()
 {
-	ItemDataManager::Get()->LoadData("../DataFile/ItemData.csv");
+	ItemDataManager::Get()->LoadData("DataFile/ItemData.csv");
 	GoodsManager::Get();
 
 	CreateButtons();
@@ -79,8 +79,8 @@ void InventoryScene::CreateButtons()
 void InventoryScene::CreatePanels()
 {
 	panels.push_back(new StorePanel());
-	panels.push_back(new Panel(CENTER, Vector2(400, 300), RGB(0, 0, 255)));
-	panels.push_back(new Panel(CENTER, Vector2(400, 300), RGB(255, 0, 0)));
+	panels.push_back(new InventoryPanel());
+	panels.push_back(new EquipPanel());
 
 	for (Panel* panel : panels)
 	{
@@ -90,5 +90,8 @@ void InventoryScene::CreatePanels()
 
 void InventoryScene::OnClickButton(int index)
 {
-	panels[index]->SetActive(true);
+	for (int i = 0; i < panels.size(); i++)
+	{
+		panels[i]->SetActive(i == index);
+	}
 }

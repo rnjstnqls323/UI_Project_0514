@@ -10,9 +10,8 @@ public:
 
 	virtual void Update();
 	virtual void Render(HDC hdc);
-	virtual wstring GetExplane() { return L""; };
 
-	void ShowExplane(HDC hdc);
+
 private:
 	void OnClickClose();
 

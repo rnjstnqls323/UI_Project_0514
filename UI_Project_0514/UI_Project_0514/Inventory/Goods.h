@@ -1,20 +1,29 @@
 #pragma once
 
-class Goods : public Button //아이템 정보 넣어서 버튼으로 만든거
+class Goods : public Button
 {
 private:
-	Vector2 SIZE = { 200,100 };
+    Vector2 SIZE = { 200,100 };
+
 public:
-	Goods(Vector2 center, ItemData itemData);
-	~Goods();
+    Goods(Vector2 center, ItemData itemData);
+    ~Goods();
 
-	void Render(HDC hdc);
+    // 복사 생성자 추가
+    Goods(const Goods& other);
 
-	ItemData GetItemData() { return itemData; }
-	void SetItemStatus(ItemStatus status) { itemData.status = status; }
+    // 복사 대입 연산자 (필요하면)
+    Goods& operator=(const Goods& other);
 
-	void SetCenter(Vector2 setCenter) { center = setCenter; }
+    void Render(HDC hdc);
+
+    ItemData GetItemData() { return itemData; }
+    void SetItemStatus(ItemStatus status) { itemData.status = status; }
+
+    void SetCenter(Vector2 setCenter) { center = setCenter; }
+
+    void ShowExplane(HDC hdc);
 
 private:
-	ItemData itemData;
+    ItemData itemData;
 };

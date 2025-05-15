@@ -15,6 +15,7 @@ GameManager::GameManager()
 
 	//씬 생성 및 추가 이건 씬마다 다 해줘야될듯 ("키값", new 씬) 이렇게
 	SCENE->AddScene("Title", new TitleScene());
+	SCENE->AddScene("Inven", new InventoryScene());
 
 	SCENE->ChangeScene("Title");
 }

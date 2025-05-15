@@ -42,8 +42,7 @@ void TitleScene::Render(HDC hdc)
 
 void TitleScene::OnClickStart()
 {
-	//SCENE->ChangeScene("Inven");
-	PostQuitMessage(0);
+	SCENE->ChangeScene("Inven");
 }
 
 void TitleScene::OnClickExit()

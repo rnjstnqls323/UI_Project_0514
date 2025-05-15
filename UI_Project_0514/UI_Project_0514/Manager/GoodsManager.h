@@ -13,13 +13,22 @@ private:
 
 public:
 	void Update();
-	void Render(HDC hdc);
-	Goods* GetGood(int index) { return goods[index]; }
+	//void Render(HDC hdc);
+	void UpdateInventoryList();
+	void UpdateStoreList();
+	void UpdateEquipList();
 
-	vector<Goods*> GetInventoryGoods();
-	vector<Goods*> GetStoreGoods();
-	vector<Goods*> GetEquipGoods();
+
+
+	vector<Goods*> GetInventoryGoods() { return inventoryGoods; }
+	vector<Goods*> GetStoreGoods() { return storeGoods; }
+	vector<Goods*> GetEquipGoods() { return equipGoods; }
+	
 
 private:
+	vector<Goods*> inventoryGoods;
+	vector<Goods*> storeGoods;
+	vector<Goods*> equipGoods;
+
 	vector<Goods*> goods;
 };
