@@ -1,6 +1,6 @@
 #pragma once
 
-class Goods : public Button
+class Goods : public Button //아이템 정보 넣어서 버튼으로 만든거
 {
 private:
 	Vector2 SIZE = { 200,100 };
@@ -11,7 +11,9 @@ public:
 	void Render(HDC hdc);
 
 	ItemData GetItemData() { return itemData; }
-	void SetItemStatus(string status) { itemData.status = status; }
+	void SetItemStatus(ItemStatus status) { itemData.status = status; }
+
+	void SetCenter(Vector2 setCenter) { center = setCenter; }
 
 private:
 	ItemData itemData;

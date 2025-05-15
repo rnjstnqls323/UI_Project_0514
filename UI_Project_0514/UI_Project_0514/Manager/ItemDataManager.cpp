@@ -31,7 +31,7 @@ void ItemDataManager::LoadData(const string& fileName)
 		itemData.explane = data[2];
 		itemData.price = stoi(data[3]);
 		itemData.value = stoi(data[4]);
-		itemData.status = data[5];
+		itemData.status = ItemStatus::Store;
 
 		itemDatas[itemData.key] = itemData;
 	}

@@ -14,6 +14,11 @@ private:
 public:
 	void Update();
 	void Render(HDC hdc);
+	Goods* GetGood(int index) { return goods[index]; }
+
+	vector<Goods*> GetInventoryGoods();
+	vector<Goods*> GetStoreGoods();
+	vector<Goods*> GetEquipGoods();
 
 private:
 	vector<Goods*> goods;

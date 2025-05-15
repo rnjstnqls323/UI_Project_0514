@@ -1,6 +1,12 @@
 #pragma once
 
 
+enum class ItemStatus
+{
+	Inventory,
+	Store,
+	Equipped
+};
 
 struct ItemData
 {
@@ -9,7 +15,7 @@ struct ItemData
 	string explane;
 	int price;
 	int value;
-	string status;
+	ItemStatus status;
 };
 
 class ItemDataManager : public Singleton<ItemDataManager>
@@ -22,7 +28,7 @@ private:
 	~ItemDataManager();
 
 public:
-	static void LoadData(const string& fileName);
+	void LoadData(const string& fileName);
 
 	ItemData GetItem(int key) { return itemDatas[key]; }
 	int GetItemCount() { return itemDatas.size(); }
