@@ -1,6 +1,6 @@
 #include "Framework.h"
 
-Circle::Circle(int radius):Circle(radius)
+Circle::Circle(int radius):radius(radius)
 {
 }
 

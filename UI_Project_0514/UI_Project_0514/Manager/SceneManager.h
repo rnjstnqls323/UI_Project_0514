@@ -1,10 +1,11 @@
 #pragma once
 class SceneManager : public Singleton<SceneManager>
 {
-public:
+	friend Singleton;
+private:
 	SceneManager();
 	~SceneManager();
-
+public:
 	void Update();
 	void Render(HDC hdc);
 

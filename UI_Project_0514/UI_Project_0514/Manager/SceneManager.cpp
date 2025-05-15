@@ -1,6 +1,6 @@
 #include "Framework.h"
 
-SceneManager::SceneManager()
+SceneManager::SceneManager():currentScene(nullptr)
 {
 }
 

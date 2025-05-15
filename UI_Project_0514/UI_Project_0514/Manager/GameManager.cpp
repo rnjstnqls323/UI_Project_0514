@@ -14,7 +14,9 @@ GameManager::GameManager()
 	Create();
 
 	//¾À »ý¼º ¹× Ãß°¡ ÀÌ°Ç ¾À¸¶´Ù ´Ù ÇØÁà¾ßµÉµí ("Å°°ª", new ¾À) ÀÌ·¸°Ô
+	SCENE->AddScene("Title", new TitleScene());
 
+	SCENE->ChangeScene("Title");
 }
 
 GameManager::~GameManager()
@@ -30,6 +32,7 @@ GameManager::~GameManager()
 void GameManager::Update()
 {
 	Timer::Get()->Update();
+	Input::Get()->Update();
 	
 	//¾À ¾÷µ¥ÀÌÆ®
 	SCENE->Update();
@@ -42,7 +45,7 @@ void GameManager::Render()
 	PatBlt(backBufferDC, 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT, WHITENESS);
 
 	//¾À ·»´õ
-	SCENE->Render(hdc);
+	SCENE->Render(backBufferDC);
 
 	Timer::Get()->Render(backBufferDC);
 	BitBlt(hdc,
@@ -53,7 +56,7 @@ void GameManager::Render()
 void GameManager::Create()
 {
 	Timer::Get();
-
+	Input::Get();
 	//¾À;
 	SCENE;
 }
@@ -61,6 +64,7 @@ void GameManager::Create()
 void GameManager::Release()
 {
 	Timer::Delete();
+	Input::Delete();
 
 	//¾À»èÁ¦
 	SCENE->Delete();
