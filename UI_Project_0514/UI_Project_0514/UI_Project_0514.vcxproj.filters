@@ -87,7 +87,7 @@
     <ClInclude Include="Inventory\Goods.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Manager\GoodsManager.h">
+    <ClInclude Include="Objects\Player\Player.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
@@ -137,9 +137,6 @@
     <ClCompile Include="Scene\TitleScene.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Manager\GoodsManager.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Scene\InventoryScene.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -160,6 +157,21 @@
       <Filter>리소스 파일</Filter>
     </Image>
     <Image Include="UI_Project_0514.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Downloads\pngwing.com (1).png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Downloads\pngwing.com (2).png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Downloads\pngwing.com (3).png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Downloads\pngwing.com.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Downloads\Screenshot_2016-11-22-18-19-20-1.png">
       <Filter>리소스 파일</Filter>
     </Image>
   </ItemGroup>

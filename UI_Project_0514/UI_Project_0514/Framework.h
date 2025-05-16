@@ -29,6 +29,7 @@ using namespace std;
 #include "Objects/Basic/GameObject.h"
 #include "Objects/Basic/Circle.h"
 #include "Objects/Basic/Rect.h"
+#include "Objects/Player/Player.h" 
 
 #include "Manager/ItemDataManager.h"
 
@@ -37,8 +38,6 @@ using namespace std;
 
 
 #include "Inventory/Goods.h"
-#include "Manager/GoodsManager.h"
-
 
 #include "Inventory/StorePanel.h"
 #include "Inventory/InventoryPanel.h"
