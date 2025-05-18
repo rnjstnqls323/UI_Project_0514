@@ -10,7 +10,9 @@ private:
 		Store,
 		Inventory,
 		Equip,
-		End,
+		Save,
+		Game,
+		End
 	};
 
 public:
@@ -28,6 +30,8 @@ private:
 	void CreatePanels();
 
 	void OnClickButton(int index);
+	void OnClickSaveButton();
+	void OnClickGameButton();
 
 private:
 	vector<Button*> buttons;

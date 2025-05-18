@@ -43,6 +43,8 @@ void Panel::Render(HDC hdc)
 
     defaultBrush = (HBRUSH)SelectObject(hdc, explaneBrush);
     SelectObject(hdc, defaultBrush);
+
+	
 }
 
 void Panel::OnClickClose()

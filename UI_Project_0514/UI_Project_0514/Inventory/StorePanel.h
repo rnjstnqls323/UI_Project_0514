@@ -1,5 +1,7 @@
 #pragma once
 
+class InventoryPanel;
+
 class StorePanel : public Panel
 {
 public:
@@ -9,15 +11,25 @@ public:
 	void Update() override;
 	void Render(HDC hdc) override;
 
+	//void SetInventoryPanel(InventoryPanel* panel) { inventoryPanel = panel; }
+
 private:
-	void LoadGoods();
+	void CreateGoods();
+
+	void BuyItem();
+	void SellItem();
 
 	//void포인터 -> 어떤 타입인지 모를 때 사용
 	void OnClickGood(void* good);
-	void SetActive(bool active);
 
 
 private:
-	//vector<Goods*> goods;
+	vector<Goods*> goods;
 	Goods* selectedGood = nullptr;
+
+	Circle* target;
+
+	Button* buyButton = nullptr;
+	Button* sellButton = nullptr;
+	//InventoryPanel* inventoryPanel = nullptr;
 };

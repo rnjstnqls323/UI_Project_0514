@@ -3,11 +3,12 @@
 
 InventoryScene::InventoryScene()
 {
-	ItemDataManager::Get()->LoadData("DataFile/ItemData.csv");
-	GoodsManager::Get();
+	ItemDataManager::Get()->LoadData(ITEM_PATH);
+
 
 	CreateButtons();
 	CreatePanels();
+
 }
 
 InventoryScene::~InventoryScene()
@@ -26,6 +27,7 @@ void InventoryScene::Update()
 
 	for (Panel* panel : panels)
 		panel->Update();
+
 }
 
 void InventoryScene::Render(HDC hdc)
@@ -36,6 +38,10 @@ void InventoryScene::Render(HDC hdc)
 	for (Panel* panel : panels)
 		panel->Render(hdc);
 
+	string goldText = "Gold : " + to_string(Player::Get()->GetGold());
+	TextOutA(hdc, 0, 50, goldText.c_str(), goldText.length());
+
+
 }
 
 
@@ -45,9 +51,13 @@ void InventoryScene::CreateButtons()
 	buttons.push_back(new Button(Vector2(100, 100), Vector2(100, 50)));
 	buttons.push_back(new Button(Vector2(200, 100), Vector2(100, 50)));
 	buttons.push_back(new Button(Vector2(300, 100), Vector2(100, 50)));
+	buttons.push_back(new Button(Vector2(500, 50), Vector2(100, 50)));
+	buttons.push_back(new Button(Vector2(500, 100), Vector2(100, 50)));
 	buttons[(int)State::Store]->SetText(L"Store");
 	buttons[(int)State::Inventory]->SetText(L"Inventory");
 	buttons[(int)State::Equip]->SetText(L"Equip");
+	buttons[(int)State::Save]->SetText(L"SaveData");
+	buttons[(int)State::Game]->SetText(L"PlayGame");
 
 	buttons[(int)State::Store]->SetBrush(
 		RGB(255, 230, 100),   // Normal (¹àÀº ±Ý»ö/²Ü»ö)
@@ -64,16 +74,25 @@ void InventoryScene::CreateButtons()
 		RGB(200, 170, 240),   // Over
 		RGB(180, 150, 220)    // Down
 	);
+	buttons[(int)State::Save]->SetBrush(
+		RGB(170, 240, 210),
+		RGB(150, 220, 190),
+		RGB(130, 200, 170)
+	);
+	buttons[(int)State::Game]->SetBrush(
+		RGB(255, 240, 180),
+		RGB(245, 225, 160),
+		RGB(230, 210, 140)
+	);
 
-	for (int i = 0; i < (int)State::End; i++)
+
+	for (int i = 0; i < (int)State::Save; i++)
 	{
 		buttons[i]->SetIntEvent(bind(&InventoryScene::OnClickButton, this, placeholders::_1));
 		buttons[i]->SetIntParameter(i);
 	}
-
-	//buttons[0]->SetEvent([]() { /* Store button event */ });
-	//buttons[1]->SetEvent([]() { /* Inventory button event */ });
-	//buttons[2]->SetEvent([]() { /* Equip button event */ });
+	buttons[(int)State::Save]->SetIntEvent(bind(&InventoryScene::OnClickSaveButton, this));
+	buttons[(int)State::Game]->SetIntEvent(bind(&InventoryScene::OnClickGameButton, this));
 }
 
 void InventoryScene::CreatePanels()
@@ -94,4 +113,29 @@ void InventoryScene::OnClickButton(int index)
 	{
 		panels[i]->SetActive(i == index);
 	}
+}
+
+void InventoryScene::OnClickSaveButton()
+{
+	MessageBox(hWnd, L"ClickSave", L"", MB_OK);
+	ofstream playerFile("DataFile/SavePlayerInfo.csv");
+	playerFile << Player::Get()->GetGold() << "," << Player::Get()->GetStage()<<","<<Player::Get()->GetHealthPoint();
+	playerFile.close();
+
+	ofstream invenFile("DataFile/SaveInventoryInfo.csv");
+	for (InventoryItem* item : Player::Get()->items)
+	{
+		int key = item->GetItemData().key;
+		bool equipStatus = item->GetEquiped();
+
+		invenFile << key << "," << equipStatus<<endl;
+	}
+	invenFile.close();
+}
+
+void InventoryScene::OnClickGameButton()
+{
+	//SceneManager::ChangeScene("FightScene"); 
+	MessageBox(hWnd, L"ClickGame", L"", MB_OK);
+	SCENE->ChangeScene("Fight");
 }

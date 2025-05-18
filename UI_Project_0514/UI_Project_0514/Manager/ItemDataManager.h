@@ -1,13 +1,6 @@
 #pragma once
 
 
-enum class ItemStatus
-{
-	Inventory,
-	Store,
-	Equipped
-};
-
 struct ItemData
 {
 	int key;
@@ -15,7 +8,7 @@ struct ItemData
 	string explane;
 	int price;
 	int value;
-	ItemStatus status;
+	bool equip;
 };
 
 class ItemDataManager : public Singleton<ItemDataManager>

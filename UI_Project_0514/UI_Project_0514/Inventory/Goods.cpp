@@ -6,6 +6,11 @@ Goods::Goods(Vector2 center, ItemData itemData)
 {
 	SetBrush(RGB(255, 255, 150), RGB(255, 230, 120), RGB(255, 200, 80));
 }
+Goods::Goods(Vector2 center,Vector2 size, ItemData itemData)
+	: Button(center, size), itemData(itemData)
+{
+	SetBrush(RGB(255, 255, 150), RGB(255, 230, 120), RGB(255, 200, 80));
+}
 
 Goods::~Goods()
 {
@@ -16,10 +21,6 @@ Goods::Goods(const Goods& other)
 {
 	SIZE = other.SIZE;
 	center = other.center;
-
-	// 이벤트 콜백 같은 건 복사하지 말자
-	// (만약 Button 클래스가 objectEvent 같은 걸 가지고 있다면, 
-	// 그건 복사 생성자에서 복사 안 하도록 해야 함)
 }
 
 Goods& Goods::operator=(const Goods& other)

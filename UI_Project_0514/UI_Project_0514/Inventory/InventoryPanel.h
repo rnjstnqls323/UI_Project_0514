@@ -3,21 +3,14 @@
 
 class InventoryPanel : public Panel
 {
-public :
+private:
+	const int COL_COUNT = 3;
+	const Vector2 SPACE = Vector2(10, 10);
+
+public:
 	InventoryPanel();
 	~InventoryPanel();
 
 	void Update() override;
 	void Render(HDC hdc) override;
-	void SetActive(bool active);
-
-private:
-	void LoadGoods();
-
-	void OnClickGood(void* good);
-
-private:
-	vector<Goods*> goods;
-	vector<Goods*> inventoryGoods;
-	Goods* selectedGood = nullptr;
 };

@@ -7,6 +7,7 @@ private:
 
 public:
     Goods(Vector2 center, ItemData itemData);
+    Goods(Vector2 center,Vector2 size, ItemData itemData);
     ~Goods();
 
     // 복사 생성자 추가
@@ -18,12 +19,15 @@ public:
     void Render(HDC hdc);
 
     ItemData GetItemData() { return itemData; }
-    void SetItemStatus(ItemStatus status) { itemData.status = status; }
 
     void SetCenter(Vector2 setCenter) { center = setCenter; }
 
     void ShowExplane(HDC hdc);
 
+    bool IsEquiped() { return isEquiped; }
+    void SetEquip(bool isEquiped) { this->isEquiped = isEquiped; }
+
 private:
     ItemData itemData;
+    bool isEquiped = false;
 };

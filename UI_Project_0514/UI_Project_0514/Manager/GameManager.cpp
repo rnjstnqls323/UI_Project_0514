@@ -13,9 +13,13 @@ GameManager::GameManager()
 
 	Create();
 
+
+
 	//¾À »ý¼º ¹× Ãß°¡ ÀÌ°Ç ¾À¸¶´Ù ´Ù ÇØÁà¾ßµÉµí ("Å°°ª", new ¾À) ÀÌ·¸°Ô
 	SCENE->AddScene("Title", new TitleScene());
 	SCENE->AddScene("Inven", new InventoryScene());
+	SCENE->AddScene("Load", new SaveDataLoadScene());
+	SCENE->AddScene("Fight", new FightScene());
 
 	SCENE->ChangeScene("Title");
 }
@@ -58,6 +62,8 @@ void GameManager::Create()
 {
 	Timer::Get();
 	Input::Get();
+
+	Player::Get();
 	//¾À;
 	SCENE;
 }

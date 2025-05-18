@@ -2,7 +2,12 @@
 
 EquipPanel::EquipPanel() :Panel(CENTER, PANEL_SIZE, RGB(255, 240, 220))
 {
-	LoadGoods();
+	EventManager::Get()->AddEvent("Equip",
+		bind(&EquipPanel::OnEquipItem, this, placeholders::_1));
+	EventManager::Get()->AddEvent("Unequip",
+		bind(&EquipPanel::OnUnequipItem, this, placeholders::_1));
+
+
 }
 
 EquipPanel::~EquipPanel()
@@ -11,79 +16,58 @@ EquipPanel::~EquipPanel()
 
 void EquipPanel::Update()
 {
-	if (!isActive)
-		return;
+	if (!isActive) return;
+
 	Panel::Update();
 
-	for (Goods* good : GoodsManager::Get()->GetEquipGoods()) //중복호출되는듯
+
+	
+	if (Player::Get()->GetEquipedItem()!=nullptr)
 	{
-		good->Update();
+		equipItem = Player::Get()->GetEquipedItem();
 	}
 }
 
 void EquipPanel::Render(HDC hdc)
 {
-	if (!isActive)
-		return;
+	if (!isActive) return;
 
 	Panel::Render(hdc);
 
-	for (Goods* good : GoodsManager::Get()->GetEquipGoods())
-	{
-		good->Render(hdc);
-	}
+	Vector2 pos(Left() + 50, Top() + 50);
 
-	if (selectedGood)
-	{
-		string text = "SelectItem : " + selectedGood->GetItemData().name;
-		TextOutA(hdc, Left(), Bottom(), text.c_str(), text.length());
-	}
 
-	for (Goods* good : GoodsManager::Get()->GetEquipGoods())
+	string text;
+	RECT rect = { pos.x, pos.y, pos.x + 300, pos.y + 1000 };
+
+
+	if (equipItem != nullptr)
 	{
-		if (good->IsCollisionPoint(mousePos))
-		{
-			good->ShowExplane(hdc);
-			break; // 하나만 그려
-		}
+		text = "장착 아이템 : " + equipItem->GetItemData().name + "\n아이템 설명 : " + equipItem->GetItemData().explane;
+		Player::Get()->SetAttackPower(equipItem->GetItemData().value);
 	}
+	else
+	{
+		text = "장착 아이템 : 없음";
+		Player::Get()->SetAttackPower(0);
+	}
+	DrawTextA(hdc, text.c_str(), -1, &rect, DT_WORDBREAK);
 }
 
-void EquipPanel::LoadGoods()
+void EquipPanel::OnEquipItem(void* equipsItem)
 {
-	//goods = GoodsManager::Get()->GetEquipGoods();
-	//vector<Goods*> good = GoodsManager::Get()->GetEquipGoods();
-	for (Goods* good : GoodsManager::Get()->GetEquipGoods())
+
+	if (equipItem != nullptr)
 	{
-		good->SetObjectEvent(bind(&EquipPanel::OnClickGood, this, placeholders::_1));
-		good->SetObjectParameter(good);
+		equipItem->Unequip();
 	}
 
-	Vector2 leftCenter = { CENTER.x * 0.5f,CENTER.y * 0.5f };
-	Vector2 rightCenter = { leftCenter.x + 200.0f, leftCenter.y };
+	equipItem = (InventoryItem*)equipsItem;
 
-	int count = 0;
-	for (Goods* good : GoodsManager::Get()->GetEquipGoods())
-	{
-		if (count % 2 == 0)
-		{
-			good->SetCenter({ leftCenter.x,leftCenter.y + (count / 2 * 50.f) });
-		}
-		else
-		{
-			good->SetCenter({ rightCenter.x,rightCenter.y + (count / 2 * 50.f) });
-		}
-		count++;
-
-	}
 }
 
-void EquipPanel::OnClickGood(void* good)
+void EquipPanel::OnUnequipItem(void* equipsItem)
 {
-	selectedGood = (Goods*)good;
+	equipItem = nullptr;
 
-	selectedGood->SetItemStatus(ItemStatus::Inventory);
-
-	GoodsManager::Get()->UpdateEquipList();
-	GoodsManager::Get()->UpdateInventoryList();
 }

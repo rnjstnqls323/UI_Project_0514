@@ -11,8 +11,10 @@ public:
 
 	void OnClickStart();
 	void OnClickExit();
+	void OnClickLoad();
 
 private:
+	Button* loadButton;
 	Button* startButton;
 	Button* exitButton;
 };

@@ -133,17 +133,25 @@
     <ClInclude Include="Framework.h" />
     <ClInclude Include="Inventory\EquipPanel.h" />
     <ClInclude Include="Inventory\Goods.h" />
+    <ClInclude Include="Inventory\InventoryItem.h" />
     <ClInclude Include="Inventory\InventoryPanel.h" />
     <ClInclude Include="Inventory\StorePanel.h" />
+    <ClInclude Include="Manager\EventManager.h" />
     <ClInclude Include="Manager\GameManager.h" />
+    <ClInclude Include="Manager\InvenDataManager.h" />
     <ClInclude Include="Manager\ItemDataManager.h" />
+    <ClInclude Include="Manager\PlayerDataManager.h" />
     <ClInclude Include="Manager\SceneManager.h" />
     <ClInclude Include="Objects\Basic\Circle.h" />
     <ClInclude Include="Objects\Basic\GameObject.h" />
     <ClInclude Include="Objects\Basic\Rect.h" />
+    <ClInclude Include="Objects\Monster\Monster.h" />
+    <ClInclude Include="Objects\Player\FightPanel.h" />
     <ClInclude Include="Objects\Player\Player.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="Scene\FightScene.h" />
     <ClInclude Include="Scene\InventoryScene.h" />
+    <ClInclude Include="Scene\SaveDataLoadScene.h" />
     <ClInclude Include="Scene\Scene.h" />
     <ClInclude Include="Scene\TitleScene.h" />
     <ClInclude Include="targetver.h" />
@@ -162,14 +170,23 @@
     </ClCompile>
     <ClCompile Include="Inventory\EquipPanel.cpp" />
     <ClCompile Include="Inventory\Goods.cpp" />
+    <ClCompile Include="Inventory\InventoryItem.cpp" />
     <ClCompile Include="Inventory\InventoryPanel.cpp" />
     <ClCompile Include="Inventory\StorePanel.cpp" />
+    <ClCompile Include="Manager\EventManager.cpp" />
     <ClCompile Include="Manager\GameManager.cpp" />
+    <ClCompile Include="Manager\InvenDataManager.cpp" />
     <ClCompile Include="Manager\ItemDataManager.cpp" />
+    <ClCompile Include="Manager\PlayerDataManager.cpp" />
     <ClCompile Include="Manager\SceneManager.cpp" />
     <ClCompile Include="Objects\Basic\Circle.cpp" />
     <ClCompile Include="Objects\Basic\Rect.cpp" />
+    <ClCompile Include="Objects\Monster\Monster.cpp" />
+    <ClCompile Include="Objects\Player\FightPanel.cpp" />
+    <ClCompile Include="Objects\Player\Player.cpp" />
+    <ClCompile Include="Scene\FightScene.cpp" />
     <ClCompile Include="Scene\InventoryScene.cpp" />
+    <ClCompile Include="Scene\SaveDataLoadScene.cpp" />
     <ClCompile Include="Scene\TitleScene.cpp" />
     <ClCompile Include="UI\Button.cpp" />
     <ClCompile Include="UI\Panel.cpp" />
@@ -192,6 +209,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="DataFile\ItemData.csv" />
+    <None Include="DataFile\SaveInventoryInfo.csv" />
+    <None Include="DataFile\SavePlayerInfo.csv" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

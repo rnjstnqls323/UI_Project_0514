@@ -10,12 +10,10 @@ public:
 	void Update() override;
 	void Render(HDC hdc) override;
 
-private:
-	void LoadGoods();
+	void OnEquipItem(void* equipsItem);
+	void OnUnequipItem(void* equipsItem);
 
-	void OnClickGood(void* good);
-
+	void SetEquipItem(InventoryItem* equipItem) { this->equipItem = equipItem; }
 private:
-	vector<Goods*> goods;
-	Goods* selectedGood = nullptr;
+	InventoryItem* equipItem = nullptr;
 };

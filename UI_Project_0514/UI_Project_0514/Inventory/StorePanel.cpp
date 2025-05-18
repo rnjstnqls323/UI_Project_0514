@@ -1,14 +1,31 @@
 #include "Framework.h"
 #include "StorePanel.h"
 
-StorePanel::StorePanel() : Panel(CENTER, PANEL_SIZE, RGB(255, 255, 210))
+StorePanel::StorePanel()
+	:Panel(CENTER, PANEL_SIZE, RGB(255, 214, 170))
 {
+	CreateGoods();
 
-	LoadGoods();
+	buyButton = new Button(Vector2(Left() + 50, Bottom() - 50), Vector2(100, 50));
+	buyButton->SetText(L"Buy");
+	buyButton->SetBrush(RGB(170, 255, 204), RGB(140, 220, 180), RGB(110, 190, 150));
+	buyButton->SetEvent(bind(&StorePanel::BuyItem, this));
+
+	sellButton = new Button(Vector2(Right() - 50, Bottom() - 50), Vector2(100, 50));
+	sellButton->SetText(L"Sell");
+	sellButton->SetBrush(RGB(255, 204, 204), RGB(255, 170, 170), RGB(255, 140, 140));
+	sellButton->SetEvent(bind(&StorePanel::SellItem, this));
 }
 
 StorePanel::~StorePanel()
 {
+	delete buyButton;
+	delete sellButton;
+
+	for (Goods* good : goods)
+	{
+		delete good;
+	}
 }
 
 void StorePanel::Update()
@@ -16,13 +33,20 @@ void StorePanel::Update()
 	if (!isActive)
 		return;
 
+	if (Input::Get()->IsKeyDown(VK_F2))
+	{
+		BuyItem();
+	}
+
 	Panel::Update();
 
-	for (Goods* good : GoodsManager::Get()->GetStoreGoods())
+	for (Goods* good : goods)
 	{
 		good->Update();
 	}
 
+	buyButton->Update();
+	sellButton->Update();
 }
 
 void StorePanel::Render(HDC hdc)
@@ -32,7 +56,7 @@ void StorePanel::Render(HDC hdc)
 
 	Panel::Render(hdc);
 
-	for (Goods* good : GoodsManager::Get()->GetStoreGoods())
+	for (Goods* good : goods)
 	{
 		good->Render(hdc);
 	}
@@ -43,62 +67,49 @@ void StorePanel::Render(HDC hdc)
 		TextOutA(hdc, Left(), Bottom(), text.c_str(), text.length());
 	}
 
-	for (Goods* good : GoodsManager::Get()->GetStoreGoods())
+	buyButton->Render(hdc);
+	sellButton->Render(hdc);
+
+	
+}
+
+void StorePanel::CreateGoods()
+{
+	int itemCount = ItemDataManager::Get()->GetItemCount();
+
+	for (int i = 0; i < itemCount; i++)
 	{
-		if (good->IsCollisionPoint(mousePos))
-		{
-			good->ShowExplane(hdc);
-			break; // 하나만 그려
-		}
+		ItemData itemData = ItemDataManager::Get()->GetItem(1000 + i);
+		Vector2 pos;
+		pos.x = center.x;
+		pos.y = Top() + 30+ i * 80;
+
+		Goods* good = new Goods(pos, itemData);
+		good->SetObjectEvent(bind(&StorePanel::OnClickGood, this, placeholders::_1));
+		good->SetObjectParameter(good);
+		goods.push_back(good);
 	}
 }
 
-void StorePanel::LoadGoods()
+void StorePanel::BuyItem()
 {
+	if (selectedGood == nullptr)
+		return;
 
-	//goods = GoodsManager::Get()->GetStoreGoods();
-	for (Goods* good : GoodsManager::Get()->GetStoreGoods())
-	{
-		good->SetObjectEvent(bind(&StorePanel::OnClickGood, this, placeholders::_1));
-		good->SetObjectParameter(good);
-		cout << "StorePanel 바인딩됨: " << good->GetItemData().name << endl;
-	}
-	Vector2 leftCenter = { CENTER.x * 0.5f+30.0f,CENTER.y * 0.5f };
-	Vector2 rightCenter = { leftCenter.x + 200.0f, leftCenter.y};
+	//EventManager::Get()->ExcuteEvent("AddItem", selectedGood);
+	//inventoryPanel->AddItem(selectedGood);
+	Player::Get()->AddItem(selectedGood);
+}
 
-	int count =0;
-	for (Goods* good : GoodsManager::Get()->GetStoreGoods())
-	{
-		if (count % 2 == 0)
-		{			
-			good->SetCenter({ leftCenter.x,leftCenter.y + (count / 2 * 80.f) });
-		}
-		else
-		{
-			good->SetCenter({ rightCenter.x,rightCenter.y + (count / 2 * 80.f) });
-		}
-		count++;
-		
-	}
+void StorePanel::SellItem()
+{
+	if (selectedGood == nullptr)
+		return;
+	
+	Player::Get()->RemoveItem(selectedGood);
 }
 
 void StorePanel::OnClickGood(void* good)
 {
 	selectedGood = (Goods*)good;
-	//플레이어 골드 확인하고 구매하는 거 처리하기
-
-	selectedGood->SetItemStatus(ItemStatus::Inventory);
-	GoodsManager::Get()->UpdateStoreList();
-	GoodsManager::Get()->UpdateInventoryList();
-
-}
-
-void StorePanel::SetActive(bool active)
-{
-	Panel::SetActive(active);
-
-	if (active)
-	{
-		LoadGoods(); // 여기에 다시 바인딩 해줘야 함!
-	}
 }
