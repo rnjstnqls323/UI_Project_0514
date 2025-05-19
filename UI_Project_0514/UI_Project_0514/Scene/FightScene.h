@@ -3,7 +3,7 @@
 class FightScene : public Scene
 {
 private:
-	const float LODING_TIME = 2.0f;
+	const float CHANGE_TIME = 2.0f;
 
 public:
 	FightScene();
@@ -12,12 +12,10 @@ public:
 	void Update() override;
 	void Render(HDC hdc) override;
 
-	void Fight();
-
-	void Start() override {}
-	void End() override {}
+	void Start() override;
+	void End() override;
 private:
-	float lodingTimmer = 0.0f;
+	float changeTimmer = 0.0f;
 
-	Panel* panel = nullptr;
+	FightPanel* panel = nullptr;
 };

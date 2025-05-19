@@ -90,11 +90,13 @@ void InventoryItem::OnClickItem()
 void InventoryItem::OnClickEquip()
 {
 	itemData.equip = true;
+	Player::Get()->SetAttackPower(itemData.value);
 	EventManager::Get()->ExcuteEvent("Equip", this);
 }
 
 void InventoryItem::OnClickUnequip()
 {
 	itemData.equip = false;
+	Player::Get()->SetAttackPower(0);
 	EventManager::Get()->ExcuteEvent("Unequip", this);
 }

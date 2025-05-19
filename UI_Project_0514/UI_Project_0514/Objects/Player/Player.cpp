@@ -13,6 +13,7 @@ Player::~Player()
 void Player::Render(HDC hdc)
 {
 	Rect::Render(hdc);
+	ShowHpBar(hdc);
 }
 
 void Player::Update()
@@ -111,4 +112,11 @@ void Player::RemoveItem(void* selectGood)
 void Player::OnSelectedItem(void* item)
 {
 	selectedItem = (InventoryItem*)item;
+}
+
+void Player::ShowHpBar(HDC hdc)
+{
+	string hpText = to_string(healthPoint);
+	RECT textRect = { 100, 700, 50,50 };  // 위쪽에 표시
+	DrawTextA(hdc, hpText.c_str(), -1, &textRect, DT_CENTER | DT_VCENTER | DT_SINGLELINE);
 }

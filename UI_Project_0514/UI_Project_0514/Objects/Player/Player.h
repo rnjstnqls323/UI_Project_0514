@@ -8,6 +8,9 @@ class Player : public Singleton<Player>, public Rect
 	friend Singleton;
 
 	// 플레이어는 아이템 정보 다 들고있기 노노 스토어panel에서 구매한 정보만 들고잇기!
+
+private:
+	const int MAX_HP = 1000;
 private:
 	Player();
 	~Player();
@@ -36,11 +39,15 @@ public :
 	int GetAttackPower() { return attackPower; }
 	void SetAttackPower(int attackPower) { this->attackPower = attackPower; }
 
+	bool IsDie() { if (healthPoint <= 0) return true; else return false; }
+
+	void ShowHpBar(HDC hdc);
+
 	InventoryItem* GetEquipedItem() { return equipedItem; }
 
 	vector<InventoryItem*> items;
 private:
-	int gold = 10000;
+	int gold = 0;
 	int stage = 1;
 	int healthPoint = 1000;
 	int attackPower = 0;

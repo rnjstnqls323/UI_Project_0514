@@ -26,6 +26,12 @@ void EquipPanel::Update()
 	{
 		equipItem = Player::Get()->GetEquipedItem();
 	}
+
+	if (equipItem != nullptr)
+	{
+		Player::Get()->SetAttackPower(equipItem->GetItemData().value);
+	}
+
 }
 
 void EquipPanel::Render(HDC hdc)

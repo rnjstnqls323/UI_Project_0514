@@ -136,6 +136,6 @@ void InventoryScene::OnClickSaveButton()
 void InventoryScene::OnClickGameButton()
 {
 	//SceneManager::ChangeScene("FightScene"); 
-	MessageBox(hWnd, L"ClickGame", L"", MB_OK);
+	
 	SCENE->ChangeScene("Fight");
 }
